@@ -23,6 +23,11 @@ namespace CompleteAutoService.Entities
         public CarModel Model { get; set; }
 
         /// <summary>
+        /// Registration number of the car
+        /// </summary>
+        public string Registration { get; set; }
+
+        /// <summary>
         /// engine size 2200
         /// </summary>
         [Description("Engine size in CCM")]
