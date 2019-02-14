@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompleteAutoService.DAL", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompleteAutoService.Entities", "CompleteAutoService.Entities\CompleteAutoService.Entities.csproj", "{E70B20FB-9537-4D40-A67B-345E4BB31872}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompleteAutoService.Services", "CompleteAutoService.Services\CompleteAutoService.Services.csproj", "{79672FC2-376A-46F5-A2D4-D8B76F7C64EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompleteAutoService.Facades", "CompleteAutoService.Facades\CompleteAutoService.Facades.csproj", "{39743C85-8BF6-4EB0-ACBB-1DCF5EA1AFF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{E70B20FB-9537-4D40-A67B-345E4BB31872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E70B20FB-9537-4D40-A67B-345E4BB31872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E70B20FB-9537-4D40-A67B-345E4BB31872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79672FC2-376A-46F5-A2D4-D8B76F7C64EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79672FC2-376A-46F5-A2D4-D8B76F7C64EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79672FC2-376A-46F5-A2D4-D8B76F7C64EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79672FC2-376A-46F5-A2D4-D8B76F7C64EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39743C85-8BF6-4EB0-ACBB-1DCF5EA1AFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39743C85-8BF6-4EB0-ACBB-1DCF5EA1AFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39743C85-8BF6-4EB0-ACBB-1DCF5EA1AFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39743C85-8BF6-4EB0-ACBB-1DCF5EA1AFF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
