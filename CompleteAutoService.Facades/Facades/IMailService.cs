@@ -9,8 +9,9 @@
         /// sends mail
         /// </summary>
         /// <param name="recipient">mail from the recipient</param>
+        /// <param name="sender">mail from the sender</param>
         /// <param name="subject">subject of the mail</param>
         /// <param name="body">body of the mail</param>
-        void Send(string recipient, string subject, string body);
+        void Send(string recipient, string sender, string subject, string body);
     }
 }
